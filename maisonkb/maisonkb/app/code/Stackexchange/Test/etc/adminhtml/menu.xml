@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Stackexchange_Test::parent" title="Test" module="Stackexchange_Test" sortOrder="100" resource="Stackexchange_Test::parent"/>
+        <add id="Stackexchange_Test::index" title="Test Index" module="Stackexchange_Test" sortOrder="10" action="test/index" resource="Stackexchange_Test::index" parent="Stackexchange_Test::parent"/>
+		
+    </menu>
+</config>
